@@ -106,11 +106,24 @@ a, h1, h2, h3, h4, p{
 /*Media Query 768px*/
 @media screen and (max-width: 768px){
     #topo-home{
-        
+        justify-content: space-around;
+    }
+
+    .menu-home{
+        width: 75%;
+    }
+
+    .div-topo-home-direita{
+        justify-content: flex-end;
+        width: 40%;
+    }
+
+    .logo{
+        width: 100%;
     }
 
     .div-topo-home-esquerda{
-        width: 50%;
+        width: 30%;
     }
 }
 /*Fim Media Query 768px*/
@@ -138,7 +151,7 @@ a, h1, h2, h3, h4, p{
         align-content: flex-end;
         display: flex;
         font-size: 0.8em;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 70%;
     }
 
