@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3, h4, p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+/*Definição de cores*/
+:root{
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+/*Fim definição de cores*/
+
+/*Configurações do header*/
+#topo-home{
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 6em;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    width: 40%;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.div-topo-home-esquerda{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.div-topo-home-direita{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.menu-home{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.menu-home ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu-home ul a{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.menu-home ul a:hover{
+    color: var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.menu-toggle i{
+    cursor: pointer;
+}
+
+/*Fim das configurações do Header*/
+
+/*Media Query 768px*/
+@media screen and (max-width: 768px){
+    #topo-home{
+        
+    }
+
+    .div-topo-home-esquerda{
+        width: 50%;
+    }
+}
+/*Fim Media Query 768px*/
+
+
+
+/*Media Query 375px*/
+@media screen and (max-width: 375px){
+    #topo-home{
+        height: 4em;
+        justify-content: space-around;
+    }
+
+    .div-topo-home-esquerda{
+        width: 47%;
+    }
+
+    .div-topo-home-direita{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-toggle{
+        align-content: flex-end;
+        display: flex;
+        font-size: 0.8em;
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    .menu-toggle i{
+        font-size: 2em;
+    }
+
+    
+    .menu-toggle p{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+   
+    .logo{
+        width: 100%;
+    }
+
+    .menu-home{
+        display: none;
+    }
+}
+/*Fim Media Query 375px*/
