@@ -103,6 +103,74 @@ a, h1, h2, h3, h4, p{
 
 /*Fim das configurações do Header*/
 
+/*Configurações da Página de Feedback*/
+#topo-feedback{
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 6em;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    width: 40%;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.div-topo-feedback-esquerda{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.div-topo-feedback-direita{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.menu-feedback{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.menu-feedback ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu-feedback ul a{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.menu-feedback ul a:hover{
+    color: var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+}
+
+/*Fim das configurações de feedback*/
+
+
 /*Media Query 768px*/
 @media screen and (max-width: 768px){
     #topo-home{
