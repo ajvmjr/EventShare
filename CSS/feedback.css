@@ -121,7 +121,7 @@ a, h1, h2, h3, h4, p{
 /*Configurações do main*/
 .filter{
     border: 1px solid var(--cinza);
-    /* box-shadow: 1px 1px 5px #CCC; */
+    box-shadow: 1px 1px 5px #CCC;
     height: 5vh;
     width: 50%;
 }
@@ -136,7 +136,7 @@ a, h1, h2, h3, h4, p{
 
 .input-procurar{
     border: 1px solid var(--cinza);
-    /* box-shadow: 1px 1px 5px #CCC; */
+    box-shadow: 1px 1px 5px #CCC;
     height: 5vh;
     width: 100%;
 }
@@ -159,6 +159,7 @@ select option{
 }
 
 
+
 .select-input-button{
     align-items: center;
     /* background-color: red; */
@@ -169,7 +170,7 @@ select option{
 }
 
 .select-input-button input{
-    background-color: var(--rosa);
+    background-color: var(--azul);
     border: none;
     color: white;
     font-size: 1em;
@@ -201,12 +202,13 @@ select option{
 
 
 .container-main-feedbacks{
+    /* background-color: var(--cinza); */
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 80vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .cards-feedback{
@@ -242,11 +244,11 @@ select option{
     
 .stars i{
     font-size: 1.5em;
-    }
+}
 
 
 .btnsfeedback button{
-    background-color: var(--rosa);
+    background-color: var(--azul);
     border: none;
     color: var(--branco);
     font-size: 1em;
@@ -275,6 +277,7 @@ select option{
 
 /*Media Query 768px*/
 @media screen and (max-width: 768px){
+    /*Configurações do topo*/
     #topo-feedback{
         justify-content: space-around;
     }
@@ -293,8 +296,41 @@ select option{
     }
 
     .div-topo-feedback-esquerda{
+        align-items: center;
         width: 30%;
     }
+    /*Fim configurações do topo*/
+
+    .select{
+        width: 80%;
+    }
+
+    .container-main-feedbacks-filter{
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        padding-top: 1em;
+    }
+    /*Fim filter*/
+
+    .cards-feedback{
+        align-items: center;
+        height: 10vh;
+        width:95%;
+    }
+
+    .titulos-Comunidades{
+        width:55%;
+    }
+
+    .btnsfeedback button{
+        padding: 1.1em 1.2em;
+    }
+
+    .stars{
+        width: 10%;
+    }
+    
 }
 /*Fim Media Query 768px*/
 
@@ -302,6 +338,7 @@ select option{
 
 /*Media Query 375px*/
 @media screen and (max-width: 375px){
+    /*Configurações do topo*/
     #topo-feedback{
         height: 4em;
         justify-content: space-around;
@@ -342,5 +379,38 @@ select option{
     .menu-feedback{
         display: none;
     }
+    /*Fim das configurações do topo*/
+
+    /*filter*/
+    .select{
+        width: 80%;
+    }
+
+    .container-main-feedbacks-filter{
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        padding-top: 1em;
+    }
+    /*Fim filter*/
+
+    .cards-feedback{
+        align-items: center;
+        height: 10vh;
+        width:95%;
+    }
+
+    .titulos-Comunidades{
+        width:35%;
+    }
+
+    .btnsfeedback button{
+        padding: 1.1em 1.2em;
+    }
+
+    .stars{
+        width: 20%;
+    }
+
 }
 /*Fim Media Query 375px*/
