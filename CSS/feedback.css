@@ -119,9 +119,89 @@ a, h1, h2, h3, h4, p{
 /*Fim das configurações do Header*/
 
 /*Configurações do main*/
+.filter{
+    border: 1px solid var(--cinza);
+    /* box-shadow: 1px 1px 5px #CCC; */
+    height: 5vh;
+    width: 50%;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.input-procurar{
+    border: 1px solid var(--cinza);
+    /* box-shadow: 1px 1px 5px #CCC; */
+    height: 5vh;
+    width: 100%;
+}
+
+select{
+    color: black;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.input-procurar::placeholder{
+    color: black;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+select option{
+    color: black;
+    font-size: 1em;
+}
+
+
+.select-input-button{
+    align-items: center;
+    /* background-color: red; */
+    display: flex;
+    height: 88%;
+    justify-content: center;
+    width: 20%;
+}
+
+.select-input-button input{
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em 1.8em;
+}
+.select-input-button input:hover{
+    box-shadow: 1px 1px 5px #CCC;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+.filho-select{
+    /* background-color: yellow; */
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+
+.container-main-feedbacks-filter{
+    /* background-color: #11AA58; */
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+}
+
+
 .container-main-feedbacks{
     align-items: center;
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
