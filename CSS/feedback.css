@@ -37,6 +37,7 @@ a, h1, h2, h3, h4, p{
     height: 15vh;
     justify-content: space-between;
     width: 100%;
+    border: solid 1px var(--cinza_sombra)
 }
 
 .logo{
@@ -120,87 +121,147 @@ a, h1, h2, h3, h4, p{
 /*Fim das configurações do Header*/
 
 /*Configurações do main*/
-.filter{
-    border: 1px solid var(--cinza);
-    box-shadow: 1px 1px 5px #CCC;
-    height: 5vh;
-    width: 50%;
+
+.capa_cabeçalho{
+    background: url('../imagens/pessoas.PNG') center center;
+    background-size: 100% ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 20vh;
 }
 
-.select{
+.nome_cabeçalho{
+    height: 5vh;
+    width: 15vw;
+    background: var(--rosa);
+    position: relative; top: 109px; left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nome_cabeçalho p{
+    text-transform: uppercase;
+    color: var(--branco);
+    font-size: 1.2em;;
+    text-align: center;
+    font-family:'Open Sans';
+    
+}
+
+.fotoperfil_cabeçalho img{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    margin: 50px 50px 0 50px;
+    
+}
+
+.menu_cabeçalho{
+    background: var(--branco);
+    width: 22vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: var(--cinza_sombra) 1px solid;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    margin-left: 200px;
+}
+
+.menu_cabeçalho a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: var(--cinza);
+    font-size: 1.2em;
+}
+
+#eventos-home{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    width: 50%;
-}
-
-.input-procurar{
-    border: 1px solid var(--cinza);
-    box-shadow: 1px 1px 5px #CCC;
-    height: 5vh;
-    width: 100%;
-}
-
-select{
-    color: black;
-    font-size: 1em;
-    padding: 0.5em;
-}
-
-.input-procurar::placeholder{
-    color: black;
-    font-size: 1em;
-    padding: 0.5em;
-}
-
-select option{
-    color: black;
-    font-size: 1em;
-}
-
-
-
-.select-input-button{
-    align-items: center;
-    /* background-color: red; */
-    display: flex;
-    height: 88%;
+    height: 110vh;
     justify-content: center;
-    width: 20%;
+    width: 98.90vw;
 }
 
-.select-input-button input{
+
+.filtros-feedback{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;    
+}
+
+.filtro-feedback{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.50em;
+    width: 60vw;
+}
+
+.filtro-caixas{
+    width: 50vw;
+}
+
+.filtro-categorias-data-feedback{
+    display: flex;
+    height: 1.80em;
+    justify-content: space-between;
+    margin-bottom: 0.50em;
+    width: 50vw;
+}
+
+.filtro-categorias{
+    border: 1px solid var(--cinza);
+    color: var(--cinza);
+    font-size: 0.90em;
+    height: 2em;
+    width: 28em;
+}
+
+.filtro-data{
+    border: 1px solid var(--cinza);
+    color: var(--cinza);
+    font-size: 0.90em;
+    height: 2em;
+    width: 28em;
+}
+
+.filtro-procurar{
+    width: 50vw;
+}
+
+.filtro-procurar-input{
+    border: 1px solid var(--cinza);
+    font-size: 0.90em;
+    height: 2em;
+    padding-left: 0.30em;
+    width: 50vw;
+}
+
+.filtro-botão{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 7em;
+}
+
+.filtro-botão-input{
     background-color: var(--azul);
     border: none;
     color: white;
     font-size: 1em;
     font-weight: bold;
-    padding: 1em 1.8em;
+    padding: 0.70em 2em;
 }
-.select-input-button input:hover{
+
+.filtro-botão-input:hover{
     box-shadow: 1px 1px 5px #CCC;
     cursor: pointer;
     opacity: 0.8;
     transition: 0.6s;
 }
-
-.filho-select{
-    /* background-color: yellow; */
-    display: flex;
-    height: 50%;
-    width: 100%;
-}
-
-
-.container-main-feedbacks-filter{
-    /* background-color: #11AA58; */
-    display: flex;
-    justify-content: center;
-    height: 15vh;
-    width: 100%;
-}
-
 
 .container-main-feedbacks{
     /* background-color: var(--cinza); */
@@ -391,17 +452,30 @@ select option{
     }
     /*Fim configurações do topo*/
 
-    .select{
-        width: 80%;
+    
+    .filtro-feedback{
+        width: 80vw;
     }
-
-    .container-main-feedbacks-filter{
-        align-items: center;
-        flex-direction: column;
-        height: 25vh;
-        padding-top: 1em;
+    
+    .filtro-caixas{
+        width: 60vw;
     }
-    /*Fim filter*/
+    
+    .filtro-categorias-data-feedback{
+        width: 60vw;
+    }
+    
+    .filtro-categorias{
+        width: 30em;
+    }
+    
+    .filtro-data{
+        width: 30em;
+    }
+    
+    .filtro-procurar-input{
+        width: 60vw;
+    }
 
     .cards-feedback{
         align-items: center;
@@ -440,7 +514,7 @@ select option{
     .rodapé-icones img{
         width: 4vw;
     }
-}
+}   
 /*Fim Media Query 768px*/
 
 
@@ -490,18 +564,51 @@ select option{
     }
     /*Fim das configurações do topo*/
 
-    /*filter*/
-    .select{
-        width: 80%;
+    .filtro-feedback{
+        display: block;
+        width: 80vw;
     }
-
-    .container-main-feedbacks-filter{
-        align-items: center;
-        flex-direction: column;
-        height: 25vh;
-        padding-top: 1em;
+    
+    .filtro-caixas{
+        width: 80vw;
     }
-    /*Fim filter*/
+    
+    .filtro-categorias-data-feedback{
+        margin-bottom: 0.10em; 
+        width: 80vw;
+    }
+    
+    .filtro-categorias{
+        font-size: 0.80em;
+        width: 40em;
+    }
+    
+    .filtro-data{
+        font-size: 0.80em;
+        width: 40em;
+    }
+    
+    .filtro-procurar-input{
+        font-size: 0.80em;
+        margin-bottom: 0.50em;
+        width: 80vw;
+    }
+    
+    .filtro-botão{ 
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .filtro-botão-input{
+        font-size: 0.80em;
+        padding: 0.70em 2em;
+    }
+    
+    .filtro-botão-input:hover{
+        box-shadow: none;
+        cursor: none;
+    }
 
     .cards-feedback{
         height: 8vh;
