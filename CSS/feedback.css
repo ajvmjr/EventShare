@@ -25,6 +25,7 @@ a, h1, h2, h3, h4, p{
     --amarelo: #F5C10D;
     --preto: #000000;
     --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
 }
 /*Fim definição de cores*/
 
@@ -263,16 +264,105 @@ select option{
     transition: 0.6s;
 }
 
-.vermais{
-    align-items: center;
+.vermaisbutton{
     display: flex;
-    height: 5vh;
     justify-content: center;
-    width: 100vw;
+    width: 98.9vw;
+}
+
+.vermaisbutton button{
+    background-color: var(--azul);
+    border: none;
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: bold;
+    width: 10em;
+    height: 3em;
+}
+
+.vermaisbutton button:hover{
+    box-shadow: 1px 1px 5px #CCC;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.6s;
 }
 /*Fim confingurações do main*/
 
+/*Configurações do footer*/
+#rodapé-feedback{
+    height: 20vh;
+    width: 98.9,5vw;
+    background-color: var(--cinza_sombra);
+}
 
+.rodapé-conteudo-feedback{
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2em;
+    width: 80vw;
+}
+
+.rodapé-logos{
+    height: 12vh;
+    width: 15vw;
+}
+
+.rodapé-logo-tw-feedback img{
+    height: 4vh;
+    width: 10vw;  
+}
+
+.rodapé-logo-eventshare-feedback img{
+    height: 2.5vh;
+    padding-left: 0.15em;
+    width: 6vw;
+}
+
+.rodapé-contato p{
+    color: var(--preto);
+    font-size: 0.75em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.rodapé-redes-sociais{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    margin-top: 1em;
+    width: 8vw;
+}
+
+.rodapé-redes-sociais p{
+    color: var(--preto);
+    font-size: 0.95em;
+    font-weight: bold;
+    padding-bottom: 0.50em;
+    text-align: center;
+}
+
+.rodapé-icones{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3vh;
+    width: 7vw;
+}
+
+.rodapé-icones div{
+    height: 4.5vh;
+    width: 8vh;
+}
+
+.imagens_icones{
+    height: 100%;
+    width: 100%;
+    padding: 0 0.10em;
+}
+
+/*Fim configurações do footer*/
 
 
 /*Media Query 768px*/
@@ -283,7 +373,7 @@ select option{
     }
 
     .menu-feedback{
-        width: 75%;
+        width: 85%;
     }
 
     .div-topo-feedback-direita{
@@ -331,6 +421,25 @@ select option{
         width: 10%;
     }
     
+    #rodapé-home{
+        background: var(--branco);
+    }
+ 
+    .rodapé-logo-tw-feedback img{
+        width: 15vw;
+    }
+ 
+    .rodapé-logo-eventshare-feedback img{
+        width: 9vw;
+    }
+ 
+    .rodapé-contato{
+        width: 40vw;
+    }
+ 
+    .rodapé-icones img{
+        width: 4vw;
+    }
 }
 /*Fim Media Query 768px*/
 
@@ -395,22 +504,62 @@ select option{
     /*Fim filter*/
 
     .cards-feedback{
-        align-items: center;
-        height: 10vh;
-        width:95%;
+        height: 8vh;
+        width: 95%;
     }
 
     .titulos-Comunidades{
-        width:35%;
+        width: 30%;
     }
 
-    .btnsfeedback button{
-        padding: 1.1em 1.2em;
+    .cards-feedback h3{
+        font-size: 1.1em;
+        font-weight: 50;
     }
 
     .stars{
         width: 20%;
     }
 
+    .btnsfeedback button{
+        padding: 0.7em 1.2em;
+    }
+
+    #rodapé-feedback{
+        /* background: #EF5BA1; */
+        margin-top: 250px;
+        height: 35vh;
+        
+    }
+    
+    .rodapé-conteudo-feedback{
+        display: block;
+    }
+    
+    .rodapé-logo-tw-feedback img{
+        width: 27vw;
+    }
+     
+    .rodapé-logo-eventshare-feedback img{
+        width: 18vw;
+    }
+    
+    .rodapé-contato{
+        /* background: #3CBACE; */
+        width: 70vw;
+    }
+    
+    .rodapé-redes-sociais{
+        /* background: #11AA58; */
+        width: 80vw;
+        height: 15vh;
+        
+    }
+        
+    .rodapé-icones img{
+        width: 10vw;
+        height: 6vh;
+        margin: 0 3px;
+    }
 }
 /*Fim Media Query 375px*/
