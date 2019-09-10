@@ -2217,7 +2217,7 @@ button:hover{
 @media screen and (max-width: 768px){
     #topo-sub2{
         /* background: red; */
-        height: 20vh;
+        height: 15vh;
         width: 99.9vw;
         display: flex;
     }
@@ -2251,9 +2251,6 @@ button:hover{
     width: 100vw;
 }
 
-.form_sub2{
-    /* width: 80vw; */
-}
     .rodapé-logo-eventshare-sub2, .rodapé-contato-sub2, .rodapé-icones-sub2, .rodapé-redes-sociais-sub2{
         display: none
     }
@@ -2402,13 +2399,6 @@ button:hover{
     .local_descrição{
         /* background: #11AA58; */
         width: 70vw;
-        
-    }
-
-    .parte3_descrição{
-        /* background: red; */
-        /* width: 10vw;
-        height: 10vh; */
         
     }
 
