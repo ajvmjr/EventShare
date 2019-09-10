@@ -759,6 +759,261 @@ button:hover{
 }
 /*Fim página de descrição*/
 
+/*Página de submeter evento3*/
+#topo-sub3{
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 1px var(--cinza_sombra)
+}
+
+.logo-sub3{
+    width: 40%;
+}
+
+.logo-sub3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.div-topo-sub3-esquerda{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.div-topo-sub3-direita{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.menu-sub3{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+.menu-sub3 ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu-sub3 ul a{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.menu-sub3 ul a:hover{
+    color: var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+}
+
+#btns-sub3{
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em 1.8em;
+}
+
+#btns-sub3:hover{
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+/*Fim das configurações do Header*/
+
+/* Configurações main */
+.bolinhas_sub3{
+    /* background: #F5C10D; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hr-sub3{
+    height: 0.4vh;
+    background: var(--preto);
+    border: none;
+    width: 25vw; 
+}
+
+
+.bolinhas_sub3 img{
+    width: 2.5vw;
+}
+
+.textobola_sub3{
+    /* background: #ED312F; */
+    display: flex;
+    margin: 0 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textobola_sub3 p{
+    color: var(--cinza);
+    font-size: 0.9em;
+}
+
+.banner_sub3 img{
+    width: 98.9vw;
+}
+
+.texto_sub3{
+    display: flex;
+    /* background: #11AA58; */
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;
+    line-height: 5em;
+}
+
+.texto_sub3 h1{
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.texto_sub3 p{
+    font-size:1.5em;
+}
+
+
+.botão_sub3 img{
+    width: 8vw;
+}
+
+.botão_sub3 a{
+    text-decoration: none;
+   
+}
+
+.botão_sub3 p{
+    color: var(--preto);
+    font-size: 2em;
+    text-align: center;
+}
+
+.botão_sub3{
+    display: flex;
+    justify-content: center;
+}
+
+.b_sub3{
+    background: var(--branco);
+    margin: 20px 50px;
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+}
+
+/*Configurações do footer*/
+#rodapé-sub3{
+    /* background: var(--branco); */
+    height: 20vh;
+    width: 98.9vw;
+    /* border: var(--cinza) solid 1px; */
+    background: var(--cinza_sombra)
+}
+
+.rodapé-conteudo-sub3{
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2em;
+    width: 80vw;
+}
+
+.rodapé-logos-sub3{
+    height: 12vh;
+    width: 15vw;
+}
+
+.rodapé-logo-tw-sub3 img{
+    height: 4vh;
+    width: 10vw;  
+}
+
+.rodapé-logo-eventshare-sub3 img{
+    height: 2.5vh;
+    padding-left: 0.15em;
+    width: 6vw;
+}
+
+.rodapé-contato-sub3 p{
+    color: var(--preto);
+    font-size: 0.75em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.rodapé-redes-sociais-sub3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    margin-top: 1em;
+    width: 8vw;
+}
+
+.rodapé-redes-sociais-sub3 p{
+    color: var(--preto);
+    font-size: 0.95em;
+    font-weight: bold;
+    padding-bottom: 0.50em;
+    text-align: center;
+}
+
+.rodapé-icones-sub3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3vh;
+    width: 7vw;
+}
+
+.rodapé-icones-sub3 div{
+    height: 4.5vh;
+    width: 8vh;
+}
+
+.imagens_icones-sub3{
+    height: 100%;
+    width: 100%;
+    padding: 0 0.10em;
+}
+/*Fim das configurações do footer*/
+
+/*Fim da página submeter evento3*/
+
+
+
 /*Página de submeter evento2*/
 #topo-sub2{
     align-items: center;
@@ -1672,6 +1927,80 @@ button:hover{
 }
 /*Fim Media Query evento 768px*/
 
+/*Media Query Submeter3 768px*/
+@media screen and (max-width: 768px){
+    #topo-sub3{
+        justify-content: space-around;
+    }
+
+    .menu-sub3{
+        width: 85%;
+    }
+
+    .div-topo-sub3-direita{
+        justify-content: flex-end;
+        width: 40%;
+    }
+
+    .logo-sub3{
+        width: 100%;
+    }
+
+    .div-topo-sub3-esquerda{
+        align-items: center;
+        width: 30%;
+    }
+
+.textobola_sub3 img{
+    width: 5vw;
+}
+
+.textobola_sub3 p{
+    text-align: center;
+}
+
+.banner_sub3 img{
+    width: 100vw;
+}
+
+.b_sub3{
+    width: 25vw;
+}
+
+.b_sub3 img{
+    width: 13vw;
+}
+
+.rodapé-logo-eventshare-sub3, .rodapé-contato-sub3, .rodapé-icones-sub3, .rodapé-redes-sociais-sub3{
+    display: none
+}
+
+.rodapé-logo-tw-sub3 img{
+    width: 20vw;
+}
+
+#rodapé-sub3{
+    
+    width: 100vw;
+    height: 15vh;
+    margin: 0;
+    /* padding: 0; */
+}
+
+.rodapé-conteudo-sub3{
+    /* background: yellow; */
+    height: 15vh;
+}
+
+.rodapé-logos-sub3{
+    /* background: #ED312F; */
+    width: 40vw;
+    height: 8vh;
+}
+
+}
+/*Fim Media Query Submeter3 768px*/
+
 /*Media Query Submeter Eventos2 375px*/
 
 @media screen and (max-width: 375px){
@@ -2254,3 +2583,122 @@ button:hover{
 }
 /*Fim Media Query Evento 375px*/
 
+/*Media Query Submeter evento3 375px*/
+@media screen and (max-width: 375px){
+    #topo-sub3{
+        height: 25vh;
+        justify-content: space-around;
+        width: 100vw;
+    }
+
+    .div-topo-sub3-esquerda{
+        padding-bottom: 5vh;
+        width: 40%;
+    }
+
+    .div-topo-sub3-direita{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    .menu-sub3{
+        padding-bottom: 5vh;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #btns-sub3{
+        position: absolute;
+        top: 100px;
+        right: 110px;
+        padding: 1em 1em;
+    }
+
+      
+    .logo-sub3{
+        width: 100%;
+    }	
+
+.bolinhas_sub3{
+    /* background: #3CBACE; */
+    width: 100vw;
+}    
+.textobola_sub3 img{
+    width: 10vw;
+}
+
+.textobola_sub3 p{
+    text-align: center;
+}
+
+.resumo_sub3{
+  margin-bottom: 10px;
+}
+
+.bolinhas_sub3{
+    /* background: #11AA58; */
+    height: 15vh;
+    
+}
+
+.banner_sub3{
+    display: none;
+}
+
+.texto_sub3 h1{
+    font-size: 1.5em;
+    /* margin-top: 20px; */
+}
+
+.texto_sub3 p{
+    font-size: 1.3em;
+    /* background: #5a155a; */
+    line-height: 1.2em;
+    width: 90vw;
+    text-align: center;
+}
+
+.botão_sub3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b_sub3{
+    width: 50vw
+}
+
+.b_sub3 img{
+    width: 20vw;
+}
+
+.rodapé-logo-eventshare-sub3, .rodapé-contato-sub3, .rodapé-icones-sub3, .rodapé-redes-sociais-sub3{
+    display: none
+}
+
+.rodapé-logo-tw-sub3 img{
+    width: 30vw;
+}
+
+#rodapé-sub3{
+    
+    width: 100vw;
+    height: 15vh;
+    margin: 0;
+    /* padding: 0; */
+}
+
+.rodapé-conteudo-sub3{
+    /* background: yellow; */
+    height: 15vh;
+}
+
+.rodapé-logos-sub3{
+    /* background: #ED312F; */
+    width: 40vw;
+    height: 8vh;
+}
+}
+/*Fim Media Query submeter evento3 375px*/
