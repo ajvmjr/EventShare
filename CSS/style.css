@@ -132,7 +132,7 @@ a, h1, h2, h3, h4, p{
     flex-direction: column;
     margin: 20px 0;
 }
-input{
+.input-cadastro{
     box-shadow: 2px 2px 15px var(--cinza_sombra);
     border-radius: 2px;
     height: 5vh;
@@ -3941,7 +3941,7 @@ button:hover{
         font-size: 2em;
     }
     
-    input{
+    .input-cadastro{
     border-radius: 2px;
     height: 5vh;
     /* margin: 5px 0; */
