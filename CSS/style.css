@@ -759,7 +759,7 @@ button:hover{
 }
 /*Fim página de descrição*/
 
-/*Página de submeter evento*/
+/*Página de submeter evento2*/
 #topo-sub2{
     align-items: center;
     background-color: var(--branco);
@@ -801,7 +801,7 @@ button:hover{
     display: flex;
     height: 100%;
     justify-content: space-evenly;
-    width: 40%;
+    width: 55%;
 }
 
 .menu-sub2 ul{
@@ -825,6 +825,22 @@ button:hover{
     color: var(--rosa);
     border-bottom: 2px solid var(--rosa);
 }
+
+#btns-sub2{
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em 1.8em;
+}
+
+#btns-sub2:hover{
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
 
 /*Fim das configurações do Header*/
 
@@ -996,6 +1012,260 @@ button:hover{
 }
 /*Fim da página de submeter evento*/
 
+
+/*Página de evento*/
+#topo-evento{
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 1px var(--cinza_sombra);
+}
+  
+
+
+.logo-evento{
+    width: 40%;
+}
+
+.logo-evento img {
+    height: 100%;
+    width: 100%;
+}
+
+.div-topo-evento-esquerda{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.div-topo-evento-direita{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.menu-evento{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+.menu-evento ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu-evento ul a{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.menu-evento ul a:hover{
+    color: var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+}
+
+.menu-toggle-evento{
+    display: none;
+}
+
+.menu-toggle-evento i{
+    cursor: pointer;
+}
+
+#btns-evento{
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em 1.8em;
+}
+
+#btns-evento:hover {
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+/*FIM HEADER*/
+
+
+/*MEIO DO SITE/CONTEUDO*/
+
+.banner-eventos {
+    align-items: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(60, 186, 206, 0.3), rgb(243, 193, 13, 0.3)), url(../imagens/aula.PNG);
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    text-transform: uppercase;    
+}
+
+.texto2-evento{
+    display: flex;
+    flex-direction: column;
+    height: 26em;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.textinhos-evento p {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.titulo-evento {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo-evento h1 {
+    color: var(--branco);
+    font-size: 5em;
+}
+
+.botao-evento {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-evento a:hover .evento{
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+
+.botao-evento a {
+    background: var(--rosa);
+    border: none;
+    color: var(--branco);
+    font-weight: bold;
+    padding: 1em 1.8em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-evento {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.filho-evento{
+    display: flex;
+    height: 25em;
+    justify-content: flex-end; 
+    margin: 1.5em;
+    width: 70%;
+    /* justify-content: center; */
+    
+
+}
+
+.textinhos-evento {
+    width: 100%;
+}
+
+#rodapé-evento{
+    background: var(--branco);
+    height: 20vh;
+    width: 98.9vw;
+    /* border: var(--cinza) solid 1px; */
+    background: var(--cinza_sombra);
+}
+
+.rodapé-conteudo-evento{
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2em;
+    width: 80vw;
+}
+
+.rodapé-logos-evento{
+    height: 12vh;
+    width: 15vw;
+}
+
+.rodapé-logo-tw-evento img{
+    height: 6vh;
+    width: 10vw;  
+}
+
+.rodapé-logo-eventshare-evento img{
+    height: 2.5vh;
+    padding-left: 0.15em;
+    width: 6vw;
+}
+
+.rodapé-contato-evento p{
+    color: var(--preto);
+    font-size: 0.75em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.rodapé-redes-sociais-evento{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    margin-top: 1em;
+    width: 8vw;
+}
+
+.rodapé-redes-sociais-evento p{
+    color: var(--preto);
+    font-size: 0.95em;
+    font-weight: bold;
+    padding-bottom: 0.50em;
+    text-align: center;
+}
+
+.rodapé-icones-evento{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3vh;
+    width: 7vw;
+}
+
+.rodapé-icones-evento div{
+    height: 4.5vh;
+    width: 8vh;
+}
+
+.imagens_icones_evento{
+    height: 100%;
+    width: 100%;
+    padding: 0 0.10em;
+}
+
+/*Fim página de evento*/
 
 
 /*Media Query Submeter eventos 768px*/
@@ -1338,32 +1608,109 @@ button:hover{
 }   
 /*Fim Media Query Feedbacks 768px*/
 
-/*Media Query Submeter Eventos 375px*/
+/*Media Query evento 768px*/
+
+@media screen and (max-width:768px){
+    .textinhos-evento p {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .filho-evento {
+        width: 96%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #topo-evento{
+        justify-content: space-around;
+    }
+
+    .menu-evento{
+        width: 85%;
+    }
+
+    .div-topo-evento-direita{
+        justify-content: flex-end;
+        width: 40%;
+    }
+
+    .logo-evento{
+        width: 100%;
+    }
+
+    .div-topo-evento-esquerda{
+        align-items: center;
+        width: 30%;
+    }
+
+    #rodapé-evento{
+        background: var(--branco);
+        background: var(--cinza_sombra);
+        width: 100%;
+    }
+ 
+    .rodapé-logo-tw-evento img{
+        width: 15vw;
+    }
+ 
+    .rodapé-logo-eventshare-evento img{
+        width: 9vw;
+    }
+ 
+    .rodapé-contato-evento{
+        /* background: #EF5BA1; */
+        width: 40vw;
+    }
+ 
+    .rodapé-icones-evento img{
+        width: 4vw;
+
+    }
+}
+/*Fim Media Query evento 768px*/
+
+/*Media Query Submeter Eventos2 375px*/
 
 @media screen and (max-width: 375px){
     #topo-sub2{
-        /* background: red; */
-        height: 20vh;
-        width: 100vw;
-        display: flex;
-    }
-    
-    .logo-sub2 img{
-        width: 40vw;
-    }
-    
-    .div-topo-sub2-direita{
-        /* background: #11AA58; */
-        width: 50vw;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .menu-sub2{
-        /* background: yellow; */
-        width: 50vw;
         height: 25vh;
+        justify-content: space-around;
     }
+
+    .div-topo-sub2-esquerda{
+        padding-bottom: 5vh;
+        width: 40%;
+    }
+
+    .div-topo-sub2-direita{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    .menu-sub2{
+        padding-bottom: 5vh;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #btns-sub2{
+        position: absolute;
+        top: 100px;
+        right: 110px;
+        padding: 1em 1em;
+    }
+
+      
+    .logo{
+        width: 100%;
+    }	
+
+
 
 .bolinhas_sub2{
     /* background: #3CBACE; */
@@ -1430,8 +1777,11 @@ button:hover{
     width: 40vw;
     height: 8vh;
     }
+
 }
-/*Fim Media Query submeter eventos 375px*/
+
+
+/*Fim Media Query submeter eventos2 375px*/
 
 
 /*Media Query descrição 375px*/
@@ -1605,6 +1955,7 @@ button:hover{
         height: 6vh;
         margin: 0 3px;
     }
+}
 /*Fim Media Query descrição 375px*/
 
 
@@ -1778,4 +2129,128 @@ button:hover{
         margin: 0 3px;
     }
 }
-/*Fim Media Query Feedbacks 375px*/
+
+/*Fim Media Query Feedbacks 375px */
+
+/*Meida Query Evento 375px*/
+@media screen and (max-width:375px){
+    #topo-evento{
+        height: 25vh;
+        justify-content: space-around;
+    }
+
+    .div-topo-evento-esquerda{
+        padding-bottom: 5vh;
+        width: 40%;
+    }
+
+    .div-topo-evento-direita{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    .menu-evento{
+        padding-bottom: 5vh;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #btns-evento{
+        position: absolute;
+        top: 100px;
+        right: 110px;
+        padding: 1em 1em;
+    }
+
+      
+    .logo{
+        width: 100%;
+    }
+
+
+    .banner-eventos {
+        height: 30vh;
+    }
+
+    .logo-evento{
+        width: 100%;
+    }
+
+    .texto2-evento{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+ 
+    }
+
+    .titulo-evento h1{
+        font-size: 2.5em;
+    }
+
+    .textinhos-evento {
+        height: 30em;
+        width: 100%;
+        font-size: 0.8em;
+
+        
+    }
+
+    .botao-evento{
+        height: 0em;
+
+    }
+
+    .filho-evento {
+        width: 90%;
+        height: 90%;
+    }
+
+    .container-evento{
+        height: 25em;
+
+    }
+
+    #rodapé-evento{
+        /* background: #EF5BA1; */
+        height: 35vh;
+        
+    }
+    
+    .rodapé-conteudo-evento{
+        display: block;
+    }
+    
+    .rodapé-logo-tw-evento img{
+        width: 27vw;
+    }
+     
+    .rodapé-logo-eventshare-evento img{
+        width: 18vw;
+    }
+    
+    .rodapé-contato-evento{
+        /* background: #3CBACE; */
+        width: 70vw;
+    }
+    
+    .rodapé-redes-sociais-evento{
+        /* background: #11AA58; */
+        width: 80vw;
+        height: 15vh;
+        
+    }
+    
+    
+    .rodapé-icones-evento img{
+        width: 10vw;
+        height: 6vh;
+        margin: 0 3px;
+    }
+
+}
+/*Fim Media Query Evento 375px*/
+
