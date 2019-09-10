@@ -29,6 +29,10 @@ a, h1, h2, h3, h4, p{
 }
 /*Fim definição de cores*/
 
+
+/*Configurações da Página de Feedbacks*/
+
+
 /*Configurações do header*/
 #topo-feedback{
     align-items: center;
@@ -417,8 +421,504 @@ a, h1, h2, h3, h4, p{
 
 /*Fim configurações do footer*/
 
+/*Fim página de Feedbacks*/
 
-/*Media Query 768px*/
+/*Página de descrição*/
+/*Configurações do header*/
+#topo-descrição{
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    width: 100%;
+    border: var(--cinza_sombra) solid 1px;
+}
+
+.logo-descrição{
+    width: 40%;
+}
+
+.logo-descrição img{
+    height: 100%;
+    width: 100%;
+}
+
+.div-topo-descrição-esquerda{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+    
+}
+
+.div-topo-descrição-direita{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.menu-descrição{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.menu-descrição ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu-descrição ul a{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.menu-descrição ul a:hover{
+    color: var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+}
+
+/*Fim das configurações do Header*/
+
+/* Configurações main */
+.container_descrição{
+    /* background: #ED312F; */
+    display: flex;
+    /* width: 100vw; */
+    justify-content: space-evenly;
+    height: 25vh;
+    /* background: #5a155a; */
+}
+
+.container2_descrição{
+    display: flex;
+    justify-content: space-evenly;
+    /* background: #3CBACE; */
+}
+
+.data_descrição{
+    /* background: #F5C10D; */
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 15vh;
+}
+
+.data_descrição h2{
+    font-size: 1.3em;
+}
+
+.descrição_descrição{
+    /* background: red; */
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.descrição_descrição img{
+    height:40vh ; 
+}
+
+.descrição_descrição p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-top: 0.7em;
+}
+
+.direita_topo_descrição{
+    width: 20vw;
+    display: flex;
+    flex-direction: column; 
+    /* background: #11AA58; */
+    height: 20vh;
+}
+
+.direita_topo_descrição button{
+    background-color: var(--rosa);
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: bold;
+    /* padding: 1em 1.8em; */
+    border: none;
+    height: 6vh; 
+    cursor: pointer;
+} 
+
+button:hover{
+    box-shadow: 1px 1px 5px #CCC;
+   opacity: 0.8;
+   transition: 0.6s;
+}
+
+.info_descrição{
+    background: var(--branco);
+    /* background: #94399E; */
+    width: 25vw;
+    height: 57vh;
+    /* display: flex;
+    flex-direction: column; */
+    border: solid var(--cinza_sombra) 1px;
+    box-shadow: 10px 10px 20px var(--cinza_sombra);
+    margin-right: 65px;
+    margin-top: 40px;
+}
+
+.info_descrição img{
+    width: 2.5vw;
+    height: 5vh;
+    margin: 20px;
+}
+
+.esquerda_topo_descrição{
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+}
+
+.esquerda_topo_descrição h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+.quadrado_forades{
+    /* background: #F5C10D; */
+   width: 25vw;
+   height: 25vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: var(--cinza_sombra) solid 1px;
+   background: var(--branco);
+   box-shadow: 10px 10px 20px var(--cinza_sombra);
+   margin-top: 20px;
+}
+
+.redes_descrição{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    margin: 5px 0;
+    justify-content: space-around;
+}
+
+.redes_descrição a{
+    padding: 3px;
+}
+
+.redes_descrição img{
+  width: 2.5em;
+}
+
+.redes_descrição p{
+    font-size: 1.2em;
+}
+
+.usuario_descrição{
+    display: flex;
+    align-items: center;
+}
+
+.usuario_descrição img{
+    height: 8vh;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.parte1_descrição{
+    /* background: #11AA58; */
+    display: flex; 
+     /* justify-content: space-around; */
+    /*align-content: center; */
+    height: 6vw; 
+    margin-top: 10px;
+}
+
+.parte2_descrição{
+     display: flex; 
+     /* justify-content: space-around; */
+    /*align-content: center; */ 
+    height: 7vw;
+    /* background: #F5C10D; */
+}
+
+.local_descrição{
+   margin: 0; 
+}
+
+.local_descrição h2{
+    font-size: 1.3em
+}
+
+.parte3_descrição{
+    /* background: #11AA58; */
+    height: 28vh;
+    /* margin-top: 10px; */
+}
+
+.parte3_descrição img{
+    width: 24.9vw;
+    height: 28vh;
+    margin: 0;
+    
+}
+/* Fim configurações main */
+
+/*Configurações do footer*/
+#rodapé-descrição{
+    /* background: var(--branco); */
+    height: 20vh;
+    width: 98.9vw;
+    /* border: var(--cinza) solid 1px; */
+    background: var(--cinza_sombra)
+}
+
+.rodapé-conteudo-descrição{
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2em;
+    width: 80vw;
+}
+
+.rodapé-logos-descrição{
+    height: 12vh;
+    width: 15vw;
+}
+
+.rodapé-logo-tw-descrição img{
+    height: 4vh;
+    width: 10vw;  
+}
+
+.rodapé-logo-eventshare-descrição img{
+    height: 2.5vh;
+    padding-left: 0.15em;
+    width: 6vw;
+}
+
+.rodapé-contato-descrição p{
+    color: var(--preto);
+    font-size: 0.75em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.rodapé-redes-sociais-descrição{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    margin-top: 1em;
+    width: 8vw;
+}
+
+.rodapé-redes-sociais-descrição p{
+    color: var(--preto);
+    font-size: 0.95em;
+    font-weight: bold;
+    padding-bottom: 0.50em;
+    text-align: center;
+}
+
+.rodapé-icones-descrição{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3vh;
+    width: 7vw;
+}
+
+.rodapé-icones-descrição div{
+    height: 4.5vh;
+    width: 8vh;
+}
+
+.imagens_icones-descrição{
+    height: 100%;
+    width: 100%;
+    padding: 0 0.10em;
+}
+/*Fim página de descrição*/
+
+/*Página de descrição Media Query 768px*/
+@media screen and (max-width: 768px){
+    #topo-descrição{
+        /* background: #3CBACE; */
+        height: 20vh;
+    }
+
+    .menu-descrição{
+        height: 20vh;
+        /* background: #ED312F; */
+        width: 30vw;
+    }
+
+    .logo-descrição img{
+        width: 20vw;
+    }
+    
+    .container_descrição{
+        /* background: #3CBACE; */
+        width: 100vw;
+    }
+
+    .h1_descrição{
+        width: 50vw;
+    }
+
+    .quadrado_forades{
+        width: 35vw;
+    }
+
+    .redes_descrição{
+        width: 30vw;
+    }
+
+    .redes_descrição p{
+        font-size: 1em;
+    }
+
+    .redes_descrição img{
+        width: 4vw;
+        margin: 2px;
+    }
+
+    .direita_topo_descrição{
+        display: flex;
+        width: 30vw;
+        justify-content: center;
+    }
+
+    .direita_topo_descrição button{
+        width: 30vw;
+    }
+ 
+    .container2_descrição{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .descrição_descrição{
+        width: 70vw;
+        margin-left: 110px;
+        margin-bottom: 30px;
+    }
+
+    .descrição_descrição img{
+        height: 50vh; 
+    }
+
+    .info_descrição{
+        width: 100vw;
+        background: var(--cinza_sombra);
+        height: 35.2vh;
+        /* background: #11AA58; */
+        display: flex;
+        flex-flow: row nowrap;
+       
+    }
+
+    .textoinfo_descrição{
+        /* background: #F5C10D; */
+        width: 60vw;
+    }
+
+    .parte1_descrição{
+        /* background: #EF5BA1; */
+        width: 60vw;
+        height: 15vh;
+        margin-top: 10px;
+    }
+
+    .parte1_descrição img{
+        width: 4vw;
+        height: 5vh;
+        margin: 22px;
+    }
+
+    .data_descrição{
+        /* background: #11AA58; */
+        width: 70vw;
+    }
+
+    .parte2_descrição{
+        /* background: yellow; */
+        width: 60vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .parte2_descrição img{
+        width: 4vw;
+        height: 5vh;
+        margin: 22px;
+    }
+
+    .local_descrição{
+        /* background: #11AA58; */
+        width: 70vw;
+        
+    }
+
+    .parte3_descrição{
+        /* background: red; */
+        /* width: 10vw;
+        height: 10vh; */
+        
+    }
+
+    .parte3_descrição img{
+        width: 40vw;
+        height: 35vh;  
+    }
+
+   #rodapé-descrição{
+       background: var(--branco);
+   }
+
+   .rodapé-logo-tw-descrição img{
+       width: 15vw;
+   }
+
+   .rodapé-logo-eventshare-descrição img{
+       width: 9vw;
+   }
+
+   .rodapé-contato-descrição{
+       /* background: #EF5BA1; */
+       width: 40vw;
+   }
+
+   .rodapé-icones-descrição img{
+       width: 4vw;
+   }
+}
+/*Fim da Media Query descrição 768px*/
+
+
+
+/*Media Query Feedbacks 768px*/
 @media screen and (max-width: 768px){
     /*Configurações do topo*/
     #topo-feedback{
@@ -529,11 +1029,184 @@ a, h1, h2, h3, h4, p{
         width: 4vw;
     }
 }   
-/*Fim Media Query 768px*/
+/*Fim Media Query Feedbacks 768px*/
 
 
+/*Media Query descrição 375px*/
+@media screen and (max-width: 375px){
+    #topo-descrição{
+        /* background: red; */
+        height: 25vh;
+        width: 100vw;
+        display: flex;
+    }
+    
+    .logo-descrição img{
+        width: 40vw;
+    }
+    
+    .div-topo-descrição-direita{
+        /* background: #11AA58; */
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-descrição{
+        /* background: yellow; */
+        width: 50vw;
+        height: 25vh;
+    }
+    
+    .container_descrição{
+        display: block;
+    }
+    
+    .h1_descrição{
+        
+        width: 80vw;
+    }
+    
+    .esquerda_topo_descrição{
+        margin-left: 30px;
+    }
+    
+    .quadrado_forades{
+        width: 90vw;
+        margin: 20px auto;
+        /* background: red; */
+        height: 35vh;
+    }
+    
+    .direita_topo_descrição{
+        /* background: #F5C10D; */
+        width: 80vw;
+        height: 30vh;
+    
+    }
+    
+    .direita_topo_descrição button{
+        width: 80vw;
+        height: 10vh;
+    
+    }
+    
+    .redes_descrição{
+        /* background: #3CBACE; */
+        width:80vw;
+        font-size: 1.5em; 
+    }
+    
+    .redes_descrição p{
+        font-size: 1em;
+    }
+    
+    .redes_descrição img{
+       margin-top: 8px;
+        width: 10vw;
+    }
+    
+    .container2_descrição{
+        margin-top: 280px;
+    }
+    
+    .container2_descrição img{
+        height: 30vh;
+    }
+    
+    .descrição_descrição{
+        display: flex;
+        justify-content: center;
+        /* background: #EF5BA1; */
+        margin: 20px auto;
+        width: 90vw;
+    }
+    
+    .info_descrição{
+        display: block;
+        height: 42vh;
+        /* background: #EF5BA1; */
+    }
+    
+    .textoinfo_descrição{
+        /* background: #11AA58; */
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    
+    .textoinfo_descrição img{
+        
+        width: 10vw;
+        height: 8vh;
+    }
+    
+    .parte1_descrição{
+        /* background: #F5C10D; */
+        width: 90vw;
+    }
+    
+    .parte1_descrição img{
+        width: 8vw;
+        height: 6vh;
+    }
+    
+    .parte2_descrição{
+        width: 90vw;
+        /* background: #3CBACE; */
+        height: 23vh;
+    }
+    
+    .parte2_descrição img{
+        width: 8vw;
+        height: 6vh;
+    }
+    
+    .parte3_descrição img{
+        width: 100vw;
+    }
+    
+    #rodapé-descrição{
+        /* background: #EF5BA1; */
+        margin-top: 250px;
+        height: 35vh;
+        
+    }
+    
+    .rodapé-conteudo-descrição{
+        display: block;
+    }
+    
+    .rodapé-logo-tw-descrição img{
+        width: 27vw;
+    }
+     
+    .rodapé-logo-eventshare-descrição img{
+        width: 18vw;
+    }
+    
+    .rodapé-contato-descrição{
+        /* background: #3CBACE; */
+        width: 70vw;
+    }
+    
+    .rodapé-redes-sociais-descrição{
+        /* background: #11AA58; */
+        width: 80vw;
+        height: 15vh;
+        
+    }
+    
+    .rodapé-icones-descrição img{
+        width: 10vw;
+        height: 6vh;
+        margin: 0 3px;
+    }
+/*Fim Media Query descrição 375px*/
 
-/*Media Query 375px*/
+
+/*Media Query Feedbacks 375px*/
 @media screen and (max-width: 375px){
     /*Configurações do topo*/
     #topo-feedback{
@@ -703,4 +1376,4 @@ a, h1, h2, h3, h4, p{
         margin: 0 3px;
     }
 }
-/*Fim Media Query 375px*/
+/*Fim Media Query Feedbacks 375px*/
