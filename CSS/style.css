@@ -29,6 +29,165 @@ a, h1, h2, h3, h4, p{
 }
 /*Fim definição de cores*/
 
+/*Página de cadastro*/
+#topo-cadastro{
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-cadastro{
+    width: 40%;
+}
+
+.logo-cadastro img{
+    height: 100%;
+    width: 100%;
+}
+
+.div-topo-esquerda-cadastro{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.div-topo-direita-cadastro{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.menu-cadastro{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.menu-cadastro ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu-cadastro ul a{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.menu-cadastro ul a:hover{
+    color: var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+}
+/*Fim das configurações do Header*/
+
+
+/*Configurações do main*/
+.main-cadastro{
+    background: var(--branco);
+}
+
+#banner-cadastro{
+    align-items: center;
+    background: linear-gradient( to right, rgba(248,46,46,0.50),rgba(23,77,124,0.50)), url("../imagens/teclado.PNG");
+    /* background-attachment: fixed;  */
+    background-repeat: no-repeat; 
+    /* background-size: cover;  */
+    display: flex;  
+    height: 55vh; 
+    justify-content: space-around;
+    width: 98.9vw;
+}
+
+.texto-banner-cadastro{
+    align-items: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.texto-banner-cadastro h1{
+    color: var(--branco);
+    font-size: 5em;  
+}
+
+.pai{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+input{
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    border-radius: 2px;
+    height: 5vh;
+    border:  var(--cinza_sombra) solid 1px;
+    /* padding: 0.5em; */
+    font-size: 0.9em;
+    margin: 8px 0;
+    width: 50vw;
+}
+
+::placeholder{
+    padding-left: 5px;
+}
+
+
+span{
+    color: var(--cinza);
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+}
+button{
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.80em 1.8em;
+    margin-top: 1em;
+    
+}
+
+.texto-banner-cadastro a{
+    background: var(--rosa);
+    color: var(--branco);
+    font-weight: bold;
+    padding: 1em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 67%;
+    
+}
+
+.texto-banner-cadastro a:hover{
+    background: #f287b9;
+    /* box-shadow: 0.10em 0.10em var(--preto); */
+    color: var(--branco);
+    transition: 0.6s;
+}
+/*Fim das configurações do main*/
+
+/*Fim página cadastro*/
+
 
 /*Configurações da Página de Feedbacks*/
 
@@ -1991,6 +2150,63 @@ button:hover{
 /*Fim página de evento*/
 
 
+/*Página de 768px*/
+@media screen and (max-width: 768px){
+    #topo-cadastro{
+        /* background: red; */
+        height: 20vh;
+        width: 99.9vw;
+        display: flex;
+    }
+    
+    .logo-cadastro img{
+        width: 25vw;
+    }
+    
+    .div-topo-direita-cadastro{
+        /* background: #11AA58; */
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-cadastro{
+        /* background: yellow; */
+        width: 50vw;
+        height: 25vh;
+    }
+    .texto-banner-cadastro h1{
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+    }
+    #banner-cadastro{
+        width: 100%;
+        height: 27vh;
+
+        background-size: contain;
+    }
+
+    #rodapé-cadastro{
+        width: 99.9vw;
+    }
+    .rodapé-logo-tw-cadastro img{
+        width: 16vw;
+    }
+    
+    .rodapé-logo-eventshare-cadastro img{
+        width: 10vw;
+    }
+    
+    .rodapé-contato-cadastro{
+        width: 40vw;
+    }
+    
+    .rodapé-icones-cadastro img{
+        width: 4vw;
+    }
+}
+
 /*Home Media Query 768px*/
 @media screen and (max-width: 768px){
     /* Começo do header */
@@ -3690,3 +3906,81 @@ button:hover{
     }
 
 /*Fim Media Query Home 375px*/
+
+@media screen and (max-width: 375px){
+    #topo-cadastro{
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+    }
+    
+    .logo-cadastro img{
+        width: 40vw;
+    }
+    
+    .div-topo-direita-cadastro{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-cadastro{
+        width: 50vw;
+        height: 25vh;
+    }
+
+    #banner-cadastro{
+        background-size: cover;
+        background-position: center;
+        height: 25vh;
+    }
+
+    .texto-banner-cadastro h1{
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+    }
+    
+    input{
+    border-radius: 2px;
+    height: 5vh;
+    /* margin: 5px 0; */
+    width: 75vw;
+    /* padding: 0.5em; */
+    border:  var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    font-size: 0.9em;
+    }
+    
+    #rodapé-cadastro{
+        height: 35vh;
+    }
+    
+    .rodapé-conteudo-cadastro{
+        display: block;
+    }
+    
+    .rodapé-logo-tw-cadastro img{
+        width: 27vw;
+    }
+     
+    .rodapé-logo-eventshare-cadastro img{
+        width: 18vw;
+    }
+    
+    .rodapé-contato-cadastro{
+        width: 70vw;
+    }
+    
+    .rodapé-redes-sociais-cadastro{
+        width: 80vw;
+        height: 15vh;
+    }
+    
+    .rodapé-icones-cadastro img{
+        width: 10vw;
+        height: 5vh;
+        margin: 0 3px;
+    }
+}
+/*Fim Media Query 375px*/
