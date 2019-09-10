@@ -95,14 +95,6 @@ a, h1, h2, h3, h4, p{
     border-bottom: 2px solid var(--rosa);
 }
 
-.menu-toggle{
-    display: none;
-}
-
-.menu-toggle i{
-    cursor: pointer;
-}
-
 #btns{
     background-color: var(--rosa);
     border: none;
@@ -122,7 +114,7 @@ a, h1, h2, h3, h4, p{
 
 /*Configurações do main*/
 
-.capa_cabeçalho{
+.capa-cabeçalho-feedback{
     background: url('../imagens/pessoas.PNG') center center;
     background-size: 100% ;
     background-size: cover ;
@@ -130,7 +122,7 @@ a, h1, h2, h3, h4, p{
     height: 20vh;
 }
 
-.nome_cabeçalho{
+.nome-cabeçalho-feedback{
     height: 5vh;
     width: 15vw;
     background: var(--rosa);
@@ -139,7 +131,7 @@ a, h1, h2, h3, h4, p{
     align-items: center;
     justify-content: center;
 }
-.nome_cabeçalho p{
+.nome-cabeçalho-feedback p{
     text-transform: uppercase;
     color: var(--branco);
     font-size: 1.2em;;
@@ -148,7 +140,7 @@ a, h1, h2, h3, h4, p{
     
 }
 
-.fotoperfil_cabeçalho img{
+.fotoperfil-cabeçalho-feedback img{
     width: 7vw;
     height: 7vw;
     border-radius: 50%;
@@ -156,7 +148,7 @@ a, h1, h2, h3, h4, p{
     
 }
 
-.menu_cabeçalho{
+.menu-cabeçalho-feedback{
     background: var(--branco);
     width: 22vw;
     height: 5vh;
@@ -168,7 +160,7 @@ a, h1, h2, h3, h4, p{
     margin-left: 200px;
 }
 
-.menu_cabeçalho a{
+.menu-cabeçalho-feedback a{
     text-decoration: none;
     font-family: 'Open Sans';
     color: var(--cinza);
@@ -200,7 +192,7 @@ a, h1, h2, h3, h4, p{
     width: 60vw;
 }
 
-.filtro-caixas{
+.filtro-caixas-feedback{
     width: 50vw;
 }
 
@@ -212,7 +204,7 @@ a, h1, h2, h3, h4, p{
     width: 50vw;
 }
 
-.filtro-categorias{
+.filtro-categorias-feedback{
     border: 1px solid var(--cinza);
     color: var(--cinza);
     font-size: 0.90em;
@@ -220,7 +212,7 @@ a, h1, h2, h3, h4, p{
     width: 28em;
 }
 
-.filtro-data{
+.filtro-data-feedback{
     border: 1px solid var(--cinza);
     color: var(--cinza);
     font-size: 0.90em;
@@ -228,11 +220,11 @@ a, h1, h2, h3, h4, p{
     width: 28em;
 }
 
-.filtro-procurar{
+.filtro-procurar-feedback{
     width: 50vw;
 }
 
-.filtro-procurar-input{
+.filtro-procurar-input-feedback{
     border: 1px solid var(--cinza);
     font-size: 0.90em;
     height: 2em;
@@ -240,14 +232,14 @@ a, h1, h2, h3, h4, p{
     width: 50vw;
 }
 
-.filtro-botão{
+.filtro-botão-feedback{
     align-items: center;
     display: flex;
     justify-content: flex-end;
     width: 7em;
 }
 
-.filtro-botão-input{
+.filtro-botão-input-feedback{
     background-color: var(--azul);
     border: none;
     color: white;
@@ -256,7 +248,7 @@ a, h1, h2, h3, h4, p{
     padding: 0.70em 2em;
 }
 
-.filtro-botão-input:hover{
+.filtro-botão-input-feedback:hover{
     box-shadow: 1px 1px 5px #CCC;
     cursor: pointer;
     opacity: 0.8;
@@ -365,7 +357,7 @@ a, h1, h2, h3, h4, p{
     width: 80vw;
 }
 
-.rodapé-logos{
+.rodapé-logos-feedback{
     height: 12vh;
     width: 15vw;
 }
@@ -381,14 +373,14 @@ a, h1, h2, h3, h4, p{
     width: 6vw;
 }
 
-.rodapé-contato p{
+.rodapé-contato-feedback p{
     color: var(--preto);
     font-size: 0.75em;
     font-weight: bold;
     padding-top: 1em;
 }
 
-.rodapé-redes-sociais{
+.rodapé-redes-sociais-feedback{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -397,7 +389,7 @@ a, h1, h2, h3, h4, p{
     width: 8vw;
 }
 
-.rodapé-redes-sociais p{
+.rodapé-redes-sociais-feedback p{
     color: var(--preto);
     font-size: 0.95em;
     font-weight: bold;
@@ -405,19 +397,19 @@ a, h1, h2, h3, h4, p{
     text-align: center;
 }
 
-.rodapé-icones{
+.rodapé-icones-feedback{
     display: flex;
     justify-content: space-evenly;
     height: 3vh;
     width: 7vw;
 }
 
-.rodapé-icones div{
+.rodapé-icones-feedback div{
     height: 4.5vh;
     width: 8vh;
 }
 
-.imagens_icones{
+.imagens-icones-feedback{
     height: 100%;
     width: 100%;
     padding: 0 0.10em;
@@ -451,13 +443,35 @@ a, h1, h2, h3, h4, p{
         width: 30%;
     }
     /*Fim configurações do topo*/
-
+    .capa-cabeçalho-feedback{
+        width: 100vw;
+        height: 15vh;
+    }
+    
+    .nome-cabeçalho-feedback{
+        width: 30vw;
+        height: 5vh;
+        margin-right: 5px;
+        position: relative; top: 63.8px; left: 200px;
+    }
+    
+    .fotoperfil-cabeçalho-feedback img{
+        width: 13vw;
+        height: 15vh;
+        margin: 17px 40px;
+    }
+    
+    .menu-cabeçalho-feedback{
+        width: 50vw;
+        margin-left: 200px;
+        margin-top: 0px;
+    }
     
     .filtro-feedback{
         width: 80vw;
     }
     
-    .filtro-caixas{
+    .filtro-caixas-feedback{
         width: 60vw;
     }
     
@@ -465,15 +479,15 @@ a, h1, h2, h3, h4, p{
         width: 60vw;
     }
     
-    .filtro-categorias{
+    .filtro-categorias-feedback{
         width: 30em;
     }
     
-    .filtro-data{
+    .filtro-data-feedback{
         width: 30em;
     }
     
-    .filtro-procurar-input{
+    .filtro-procurar-input-feedback{
         width: 60vw;
     }
 
@@ -507,11 +521,11 @@ a, h1, h2, h3, h4, p{
         width: 9vw;
     }
  
-    .rodapé-contato{
+    .rodapé-contato-feedback{
         width: 40vw;
     }
  
-    .rodapé-icones img{
+    .rodapé-icones-feedback img{
         width: 4vw;
     }
 }   
@@ -523,53 +537,73 @@ a, h1, h2, h3, h4, p{
 @media screen and (max-width: 375px){
     /*Configurações do topo*/
     #topo-feedback{
-        height: 4em;
+        height: 25vh;
         justify-content: space-around;
     }
 
     .div-topo-feedback-esquerda{
-        width: 47%;
+        padding-bottom: 5vh;
+        width: 40%;
     }
 
     .div-topo-feedback-direita{
         align-items: center;
         display: flex;
         justify-content: flex-end;
+        width: 50%;
     }
 
-    .menu-toggle{
-        align-content: flex-end;
-        display: flex;
-        font-size: 0.8em;
-        justify-content: space-evenly;
-        width: 70%;
+    .menu-feedback{
+        padding-bottom: 5vh;
+        justify-content: space-between;
+        width: 100%;
     }
 
-    .menu-toggle i{
-        font-size: 2em;
+    #btns{
+        position: absolute;
+        top: 100px;
+        right: 110px;
+        padding: 1em 1em;
     }
 
-    
-    .menu-toggle p{
-        font-size: 1.3em;
-        font-weight: bold;
-    }
-   
+      
     .logo{
         width: 100%;
     }
 
-    .menu-feedback{
-        display: none;
-    }
     /*Fim das configurações do topo*/
+
+    .capa-cabeçalho-feedback{
+        width: 100vw;
+        height: 15vh;
+    }
+    
+    .nome-cabeçalho-feedback{
+        width: 50vw;
+        height: 5vh;
+        margin-right: 5px;
+        position: relative; top: 64px; left: 120px;
+    }
+    
+    .fotoperfil-cabeçalho-feedback img{
+        width: 25vw;
+        height: 15vh;
+        margin: 17px 20px;
+    }
+    
+    .menu-cabeçalho-feedback{
+        width: 80vw;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    
 
     .filtro-feedback{
         display: block;
         width: 80vw;
     }
     
-    .filtro-caixas{
+    .filtro-caixas-feedback{
         width: 80vw;
     }
     
@@ -578,34 +612,34 @@ a, h1, h2, h3, h4, p{
         width: 80vw;
     }
     
-    .filtro-categorias{
+    .filtro-categorias-feedback{
         font-size: 0.80em;
         width: 40em;
     }
     
-    .filtro-data{
+    .filtro-data-feedback{
         font-size: 0.80em;
         width: 40em;
     }
     
-    .filtro-procurar-input{
+    .filtro-procurar-input-feedback{
         font-size: 0.80em;
         margin-bottom: 0.50em;
         width: 80vw;
     }
     
-    .filtro-botão{ 
+    .filtro-botão-feedback{ 
         display: flex;
         justify-content: center;
         margin: 0 auto;
     }
     
-    .filtro-botão-input{
+    .filtro-botão-input-feedback{
         font-size: 0.80em;
         padding: 0.70em 2em;
     }
     
-    .filtro-botão-input:hover{
+    .filtro-botão-input-feedback:hover{
         box-shadow: none;
         cursor: none;
     }
@@ -651,19 +685,19 @@ a, h1, h2, h3, h4, p{
         width: 18vw;
     }
     
-    .rodapé-contato{
+    .rodapé-contato-feedback{
         /* background: #3CBACE; */
         width: 70vw;
     }
     
-    .rodapé-redes-sociais{
+    .rodapé-redes-sociais-feedback{
         /* background: #11AA58; */
         width: 80vw;
         height: 15vh;
         
     }
         
-    .rodapé-icones img{
+    .rodapé-icones-feedback img{
         width: 10vw;
         height: 6vh;
         margin: 0 3px;
