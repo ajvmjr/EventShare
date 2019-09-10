@@ -1181,9 +1181,24 @@ button:hover{
 }
 
 .botão_sub2{
-    /* background: red; */
+    align-items: center;
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+
+.botão_sub2 a{
+    align-items: center;
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    height: 6vh;
+    justify-content: center;
+    text-decoration: none;
+    width: 20%;
 }
 
 
@@ -2237,6 +2252,11 @@ button:hover{
         /* background: yellow; */
         width: 50vw;
         height: 25vh;
+    }
+
+    .botão_sub2 a{
+        margin-top: 5vh;
+        width: 50%;
     }
 
 .textobola_sub2 img{
